@@ -1,1 +1,41 @@
+Resistors:
+4.7K R2
+4.7K R3
+22K  R8
+22K  R9
+9K   R10
+1M   R11
+7.6K R12
+47K  R13
+47K  R14
+10K  R15
+10K  R16
+47K  R20
+10K  R21
+1K   R22
+10K  R23
+20K  Above R25
+10K  R25
+10K  R26
+22K  R27
+100K R28
+3R   R31
+10K  R32
+22K  R33
+300K R35
+10K  R38
+22K  R40
+1.5K R45
+10K  R48
+22K  R49
+10K  R55
+10K  Under Q12
 22K  Resistor between Q8 and Q7
+
+Decoupling caps:
+47, 48, 75, 18, 19, 12, 13, 25, 26, 31, 32, 33, 15, 16, 17, 22, 23, 24, 59, 60, 61, 56, 62, 63, 64, 65, 66, 57, 58, 54, 55, 37, 36, 34, 40, 39, 38, 52, 49, 53, 51, 50, 69, 70, 71
+Unknown caps: 
+C21, C77, C76 (all likely 100n), C45 (big one)
+
+Inductors of interest:
+L1-L9 All likely same value
