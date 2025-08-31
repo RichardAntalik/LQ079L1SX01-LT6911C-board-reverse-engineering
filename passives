@@ -14,7 +14,7 @@ Resistors:
 10K  R21
 1K   R22
 10K  R23
-20K  Above R25
+20K  R24 (Above R25)
 10K  R25
 10K  R26
 22K  R27
