@@ -10031,16 +10031,6 @@
 	)
 	(wire
 		(pts
-			(xy 652.78 62.23) (xy 615.95 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0525c72b-e2ce-47d5-b569-f33a14d14901")
-	)
-	(wire
-		(pts
 			(xy 552.45 311.15) (xy 552.45 313.69)
 		)
 		(stroke
@@ -11381,6 +11371,16 @@
 	)
 	(wire
 		(pts
+			(xy 636.27 80.01) (xy 652.78 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dcb7d08-de1f-43f4-8339-a466d37eaea9")
+	)
+	(wire
+		(pts
 			(xy 105.41 172.72) (xy 105.41 173.99)
 		)
 		(stroke
@@ -12171,16 +12171,6 @@
 	)
 	(wire
 		(pts
-			(xy 652.78 86.36) (xy 638.81 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "566eb4aa-1406-4c39-91ea-8bb9aadc501a")
-	)
-	(wire
-		(pts
 			(xy 138.43 469.9) (xy 138.43 472.44)
 		)
 		(stroke
@@ -12541,6 +12531,16 @@
 	)
 	(wire
 		(pts
+			(xy 591.82 41.91) (xy 652.78 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66176763-5d53-45c5-95de-f051bcc00403")
+	)
+	(wire
+		(pts
 			(xy 427.99 154.94) (xy 472.44 154.94)
 		)
 		(stroke
@@ -12658,6 +12658,16 @@
 			(type default)
 		)
 		(uuid "6a39afd4-7cef-4369-a12c-d8cca11dfd9d")
+	)
+	(wire
+		(pts
+			(xy 638.81 86.36) (xy 652.78 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aad8cde-a7c2-4d6f-9bd5-6c96c349b217")
 	)
 	(wire
 		(pts
@@ -12808,6 +12818,16 @@
 			(type default)
 		)
 		(uuid "71d61938-6076-460e-a7ed-4154396d1c58")
+	)
+	(wire
+		(pts
+			(xy 603.25 46.99) (xy 652.78 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "726f51b5-6aa6-4c78-ae84-eaebc89f936f")
 	)
 	(wire
 		(pts
@@ -13201,16 +13221,6 @@
 	)
 	(wire
 		(pts
-			(xy 652.78 80.01) (xy 636.27 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a8930f5-0190-4340-a032-c5e24aa395c6")
-	)
-	(wire
-		(pts
 			(xy 224.79 411.48) (xy 234.95 411.48)
 		)
 		(stroke
@@ -13398,16 +13408,6 @@
 			(type default)
 		)
 		(uuid "8019787a-88ea-470e-994e-ca10cc1aec25")
-	)
-	(wire
-		(pts
-			(xy 652.78 41.91) (xy 591.82 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80266e53-1f96-4a9f-b92e-3d5e954f053f")
 	)
 	(wire
 		(pts
@@ -14621,6 +14621,16 @@
 	)
 	(wire
 		(pts
+			(xy 615.95 62.23) (xy 652.78 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aecae1fe-9ca0-4e75-af04-9bcc88180013")
+	)
+	(wire
+		(pts
 			(xy 337.82 203.2) (xy 337.82 204.47)
 		)
 		(stroke
@@ -15548,16 +15558,6 @@
 			(type default)
 		)
 		(uuid "d4d79499-6ce4-4614-9b14-74c07574caee")
-	)
-	(wire
-		(pts
-			(xy 652.78 46.99) (xy 603.25 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5e72f89-cdf1-4038-9e1f-43700fe01d6b")
 	)
 	(wire
 		(pts
@@ -16719,7 +16719,7 @@
 		)
 		(uuid "32004035-f5b2-4712-ae08-f1b5cd38fc79")
 	)
-	(text "This should be LCD reset signal"
+	(text "LCD reset signal"
 		(exclude_from_sim no)
 		(at 309.626 276.352 0)
 		(effects
@@ -16802,6 +16802,39 @@
 		)
 		(uuid "1a7dd4fe-4a31-44cb-af80-a57ef36479df")
 	)
+	(label "VSP"
+		(at 648.97 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "524d2473-b32a-4163-8ef0-aef98066c6fb")
+	)
+	(label "LED+"
+		(at 648.97 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "55cd6656-7c83-4f90-84f3-d528e0118e44")
+	)
+	(label "LED -"
+		(at 650.24 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5ca61154-3016-41e8-a732-4c666f5fab89")
+	)
 	(label "DSCL"
 		(at 92.71 176.53 0)
 		(fields_autoplaced yes)
@@ -16812,6 +16845,17 @@
 			(justify left bottom)
 		)
 		(uuid "8a9b356d-d695-45dd-b841-c6c844b814d4")
+	)
+	(label "IOVCC"
+		(at 648.97 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9bed0cff-54d1-4b42-958e-2cfd3d9ddbbc")
 	)
 	(label "RX_HPD"
 		(at 115.57 109.22 180)
@@ -16824,6 +16868,17 @@
 		)
 		(uuid "bf409dc4-72bc-4406-ac7c-2321b209e439")
 	)
+	(label "RESET"
+		(at 648.97 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e58a0de2-0526-45b8-a7e6-2f45f3b0f1a2")
+	)
 	(label "EN signal from STC"
 		(at 97.79 431.8 180)
 		(fields_autoplaced yes)
@@ -16834,6 +16889,17 @@
 			(justify right bottom)
 		)
 		(uuid "ec72f35a-27ed-4249-a906-4ed40a5924c7")
+	)
+	(label "VSN"
+		(at 648.97 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ef8026b0-f952-4162-898f-5c83a20e89fb")
 	)
 	(hierarchical_label "VCC12_TX0"
 		(shape input)
