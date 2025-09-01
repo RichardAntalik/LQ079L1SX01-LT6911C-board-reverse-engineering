@@ -1,4 +1,5 @@
-Resistors:
+## Main board:
+### Resistors:
 4.7K R2
 4.7K R3
 22K  R8
@@ -32,10 +33,20 @@ Resistors:
 10K  Under Q12
 22K  Resistor between Q8 and Q7
 
-Decoupling caps:
+### Decoupling caps:
 47, 48, 75, 18, 19, 12, 13, 25, 26, 31, 32, 33, 15, 16, 17, 22, 23, 24, 59, 60, 61, 56, 62, 63, 64, 65, 66, 57, 58, 54, 55, 37, 36, 34, 40, 39, 38, 52, 49, 53, 51, 50, 69, 70, 71
-Unknown caps: 
+### Unknown caps: 
 C21, C77, C76 (all likely 100n), C45 (big one)
 
-Inductors of interest:
+### Inductors of interest:
 L1-L9 All likely same value
+
+
+##Interconnect board:
+The LP31020VF chip is well documented, but still. 
+1K R1
+100K R2
+
+
+R1
+
