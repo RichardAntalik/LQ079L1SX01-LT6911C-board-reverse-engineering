@@ -6,11 +6,20 @@ just to check if the STC microcontroller is needed (it did work without it someh
 but it is used for powerup sequencing). I have another board, so I will measure the 
 components and include these in schematic (when necessary)
 
+### Main driver board:
 <img src="components.jpg" alt="Component layer" width="500"/>
 <img src="L1.jpg" alt="Top layer" width="500"/>
 <img src="L2.jpg" alt="Second layer" width="500"/>
 <img src="L3.jpg" alt="Third layer" width="500"/>
 <img src="L4.jpg" alt="Fourth layer" width="500"/>
+
+### Interconnect board:
+<img src="IB-components.jpg" alt="Second layer" width="500"/>
+<img src="IB-L1.jpg" alt="Third layer" width="500"/>
+<img src="IB-L2.jpg" alt="Fourth layer" width="500"/>
+
+### Schematic:
+<img src="schematic.png" alt="Fourth layer" width="1024"/>
 
 ### Powerup sequence:
 #### LT6911C
