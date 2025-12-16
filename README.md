@@ -60,3 +60,9 @@ Also If I am to follow this powerup sequence from beginning, The first pulse mea
 nothing, because whole 1.8V line goes down!
 
 I had some issues with this board, now I think I know why...
+
+#### I2C comms
+The I2C bus on LT6911 is not usable by default. It must be enabled, by writing 0x80 to register 0xFF to the device on address 0x2B
+Now you can read registers. The registers are split to banks and the bank is switched by writing to register 0xFF.
+Here you can find not only control and status registers, but also firmware, which on my chip started on register 0x10.
+The firmware blob is uploaded in this repo as well as hex dump. However I have no idea how to upload the firmware, nor whether it will work.
