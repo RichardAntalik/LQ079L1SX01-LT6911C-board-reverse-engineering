@@ -62,7 +62,13 @@ nothing, because whole 1.8V line goes down!
 I had some issues with this board, now I think I know why...
 
 #### I2C comms
-The I2C bus on LT6911 is not usable by default. It must be enabled, by writing 0x80 to register 0xFF to the device on address 0x2B
-Now you can read registers. The registers are split to banks and the bank is switched by writing to register 0xFF.
+The I2C bus on LT6911 is not usable by default. The registers are split to banks and the bank is switched by writing to register 0xFF.
 Here you can find not only control and status registers, but also firmware, which on my chip started on register 0x10.
 The firmware blob is uploaded in this repo as well as hex dump. However I have no idea how to upload the firmware, nor whether it will work.
+
+To enable I2C:
+- Switch to 0x80 bank: write 0x80 to register 0xFF on address 0x2B
+- Enable the bus: write 0x01 to register 0xEE on address 0x2B
+- Disable watchdog: write 0x00 to register 0x10 on address 0x2B
+
+The magic sequence is found in https://github.com/InES-HPMM/Lontium_lt6911uxc/blob/main/source/lt6911uxc_zhaw.c
